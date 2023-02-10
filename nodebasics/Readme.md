@@ -225,15 +225,15 @@ http://localhost:8080/winter.html
 => Winter
 I love the snow!
 
-
 ### Node.js NPM
+
 NPM is a package manager for Node.js packages, or modules.
-www.npmjs.com hosts thousands of free packages to download and use. The NPM program is installed on your computer when you install Node.js. 
+www.npmjs.com hosts thousands of free packages to download and use. The NPM program is installed on your computer when you install Node.js.
 
 A package in Node.js contains all the files you need for a module.Modules are JavaScript libraries you can include in your project.
 
 If you want to download a package called "upper-case":
-npm install upper-case. NPM creates a folder named "node_modules", where the package will be placed. 
+npm install upper-case. NPM creates a folder named "node_modules", where the package will be placed.
 
 Once the package is installed, it is ready to use:
 var uc = require('upper-case');
@@ -241,6 +241,7 @@ var uc = require('upper-case');
 Create a Node.js file demo_uppercase.js that will convert the output "Hello World!" into upper-case letters.
 
 ### Node.js Events
+
 Node.js is perfect for event-driven applications.
 Every action on a computer is an event. Like when a connection is made or a file is opened.
 Objects in Node.js can fire events, like the readStream object fires events when opening and closing a file.
@@ -248,6 +249,7 @@ Objects in Node.js can fire events, like the readStream object fires events when
 Create a file demo_readstream.js which fires an event while opening a file.
 
 #### Events Module
+
 Node.js has a built-in module, called "Events", where you can create-, fire-, and listen for- your own events.
 
 To include the built-in Events module use the require() method. In addition, all event properties and methods are an instance of an EventEmitter object. To be able to access these properties and methods, create an EventEmitter object:
@@ -268,13 +270,8 @@ The Nodemailer module makes it easy to send emails from your computer.
 The Nodemailer module can be downloaded and installed using npm:
 npm install nodemailer
 
-
 After you have downloaded the Nodemailer module, you can include the module in any application:
 
 var nodemailer = require('nodemailer');
 
 Use the username and password from your selected email provider to send an email.
-
-
-
-
